@@ -1,0 +1,79 @@
+#include "Garage.h"
+#include "Stack.h"
+int main()
+{
+	Garage Stack;
+	Stack.readCars(); // does basically everything
+	return 0;
+}
+/* example list to use
+ A 123DEF
+A 345XYZ
+D 123DEF
+A 674GTX
+A 896YUX
+D 234FDS
+A 567TYD
+A 891JKL
+D 345XYZ
+A 786IOC
+A 102931
+A 123ABC
+A 345XYZ
+D 896YUX
+D 674GTX
+A 896YUX
+D 123ABC
+A 567TYD
+D 567TYD
+A 786IOC
+A 102931
+A 123IOS
+A 66DADD
+D ONGOD1
+A KILLER
+A BIGROL
+D KILLER
+A LOWROL
+A LOLOLO
+D LOLOLO
+A JOCKY1
+A GDADzZ
+A STACKZ
+A BIZZNE
+D CORNOP
+D BIZNEE
+A MAZAEO
+D MAZAEO
+A 111111
+D STACKZ
+A 786IOC
+A 102931 
+ */
+/*
+A ab1
+A ab2
+A ab3
+A ab4
+A ab5
+A ab6
+A ab7
+A ab8
+A ab9
+A ab10
+A ab11
+A ab12
+A ab13
+A ab14
+A ab15
+D ab2
+A ab16
+A ab17
+A ab18
+A ab19
+A ab20
+A ab21
+A ab22
+A ab23
+A ab24
+*/
